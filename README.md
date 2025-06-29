@@ -10,7 +10,6 @@ O Docker in Docker (DinD) refere-se à prática de executar o Docker dentro de u
 
 Docker Documentation A documentação do Docker fornece informações sobre a instalação, configuração e uso de containers. É fundamental para entender como criar Dockerfiles, gerenciar imagens e implementar práticas recomendadas de segurança, especialmente quando se utiliza o Docker in Docker no contexto do Jenkins.
 
-
 ### get EC2 instance IP
 
 `curl ifconfig.me`
@@ -30,7 +29,7 @@ search for "Please use the following password to proceed to installation
 Generating public/private rsa key pair
 Enter file in which to save the key (/root/.ssh/id_rsa):
 Crated directory '/root/.ssh'
-/root/.ssh/id_rsa     (private)
+/root/.ssh/id_rsa (private)
 /root/.ssh/id_rsa.pub (public)
 
 ### jenkins
@@ -97,3 +96,6 @@ Vídeos e Tutoriais Oficiais do SonarQube: Os vídeos e tutoriais fornecem demon
 SonarQube Community Forum: Este fórum é um ótimo lugar para interagir com outros usuários do SonarQube. Você pode fazer perguntas, compartilhar experiências e aprender com as discussões da comunidade. Muitas vezes, soluções para problemas comuns podem ser encontradas nas conversas entre desenvolvedores.
 
 Artigos e Blogs sobre SonarQube: A seção de blogs da SonarSource oferece insights sobre novas funcionalidades, estudos de caso e dicas para a implementação do SonarQube em diferentes contextos. Esses artigos são úteis para manter-se atualizado sobre as melhores práticas e inovações na análise de código.
+
+Jekins series
+https://www.youtube.com/watch?v=tuxO7ZXplRE
