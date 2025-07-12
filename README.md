@@ -65,7 +65,10 @@ Jenkinsfile
 ### O Jenkinsfile
 
 é um arquivo que define o comportamento da pipeline de CI/CD no Jenkins. Dominar a sintaxe do Jenkinsfile permite criar pipelines complexas e totalmente automatizadas, desde a construção e teste do código até a implantação em produção. Com ele, é possível versionar e compartilhar a configuração da pipeline, facilitando a manutenção e a colaboração entre os desenvolvedores.
-DevOps
+
+To install the plugin using the GUI:
+
+Dashboard > Manage Jenkins > Manage Plugins > Available (tab) > Docker Pipeline
 
 ### DevOps
 
