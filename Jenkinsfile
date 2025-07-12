@@ -4,14 +4,22 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building backend...'
-                cd backend
-                npm build
+                script {
+                    docker.image('node:22-alpine').inside('--entrypoint ""') {
+                        sh 'npm install'
+                        sh 'npm run build'
+                    }
+                }
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing backend...'
-                npm run test
+                 script {
+                    docker.image('node:22-alpine').inside('--entrypoint ""') {
+                        sh 'npm test'
+                    }
+                }
             }
         }
         stage('Deploy') {
