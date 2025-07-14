@@ -6,11 +6,11 @@ pipeline {
     }
   }
 
-  environment {
-    REGISTRY = 'ghcr.io/your-org-or-user' // replace with your actual registry
-    BACKEND_IMAGE = "${env.REGISTRY}/your-backend"
-    FRONTEND_IMAGE = "${env.REGISTRY}/your-frontend"
-  }
+  // environment {
+  //   REGISTRY = 'ghcr.io/your-org-or-user' // replace with your actual registry
+  //   BACKEND_IMAGE = "${env.REGISTRY}/your-backend"
+  //   FRONTEND_IMAGE = "${env.REGISTRY}/your-frontend"
+  // }
 
   options {
     skipStagesAfterUnstable()
